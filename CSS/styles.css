@@ -1,0 +1,10 @@
+.aside {
+  border: 2px black;
+}
+
+.CompanyName {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 32px;
+    font-family: "Fonts/fatboy_slim/"
+}
