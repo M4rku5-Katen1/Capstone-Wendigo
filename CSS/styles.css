@@ -1,15 +1,27 @@
-@font-face {
-    font-family: fatboySlim;
-    href: "Fonts/fatboy_slim/fatboySlim.ttf";
+h1.slogan {
+  padding: 4px 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #91beeb;
 }
 
-aside.aside {
-  border: 2px black;
+aside {
+  border: 2px;
+  border-color: #a1a1a1;
 }
 
 .CompanyName {
     text-align: center;
     padding-top: 120px;
     font-size: 32px;
-    font-family: fatboySlim;
+    font-family: 'Lemonada', cursive;
+    color: #91beeb;
+}
+
+section.mainPage {
+  font-size: 89px;
+}
+
+h1.title {
+    font-size: 89px;
 }
