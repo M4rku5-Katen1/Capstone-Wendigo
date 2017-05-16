@@ -1,0 +1,62 @@
+h1.slogan {
+  padding: 4px 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #91beeb;
+  font-family: 'Lemonada', cursive;
+}
+
+aside {
+  background-color: #a1a1a1;
+  height: 90vh;
+  border-right: 2px solid;
+  border-color: #a1a1a1;
+}
+
+.CompanyName {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 30px;
+  font-family: 'Lemonada', cursive;
+  color: #91beeb;
+}
+
+section.asideSection {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-bottom: 90px;
+  text-indent: 20px;
+
+}
+
+#main {
+  height: 90vh;
+  background: url(../Images/whiteforest1.jpg);\
+  background-position: top right;
+  background-size: 2200px 1300px;
+  background-repeat: no-repeat;
+}
+
+h1.title {
+  font-size: 60px;
+  padding-top: 30px;
+  padding-left: 10px;
+  color: #91beeb;
+  font-family: 'Lemonada', cursive;
+}
+
+footer {
+  clear: left;
+}
+
+footer address {
+  color: #91beeb;
+  background-color: #555555;
+  font-size: 16px;
+  font-style: normal;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  text-align: center;
+}
