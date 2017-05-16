@@ -3,9 +3,12 @@ h1.slogan {
   font-size: 16px;
   text-align: center;
   color: #91beeb;
+  font-family: 'Lemonada', cursive;
 }
 
 aside {
+  background-color: #a1a1a1;
+  height: 90vh;
   border-right: 2px solid;
   border-color: #a1a1a1;
 }
@@ -28,8 +31,11 @@ section.asideSection {
     color: #91beeb;
 }
 
-section.main {
-  background-image: url("Images/WhiteForest1.jpg");
+#main {
+  height: 90vh;
+  background: url(../Images/whiteforest1.jpg);\
+  background-position: top right;
+  background-size: 2200px 1300px;
   background-repeat: no-repeat;
 }
 
@@ -47,7 +53,7 @@ footer {
 
 footer address {
   color: #91beeb;
-  background-color: #a1a1a1;
+  background-color: #555555;
   font-size: 16px;
   font-style: normal;
   padding-top: 10px;
