@@ -7,9 +7,17 @@ h1.slogan {
   font-family: 'Lemonada', cursive;
 }
 
-aside {
+
+#aside {
+  height: 90vh;
   background-color: #a1a1a1;
-  height: 85vh;
+  border-right: 2px solid;
+  border-color: #a1a1a1;
+}
+
+#asideLong {
+  height: 200vh;
+  background-color: #a1a1a1;
   border-right: 2px solid;
   border-color: #a1a1a1;
 }
@@ -24,12 +32,12 @@ aside {
 
 section.asideSection {
   font-size: 15px;
+  margin-left: 0px;
   padding-top: 10px;
   padding-left: 5px;
   padding-right: 10px;
   padding-bottom: 90px;
   text-indent: 20px;
-
 }
 
 #homeMain {
@@ -41,6 +49,7 @@ section.asideSection {
 }
 
 h1.title {
+  width: 711px;
   font-size: 60px;
   padding-top: 30px;
   padding-left: 10px;
@@ -49,11 +58,8 @@ h1.title {
 }
 
 #footer {
+  bottom: 0;
   clear: left;
-  position: absolute;
-}
-
-address {
   color: #91beeb;
   background-color: #555555;
   font-size: 16px;
@@ -64,19 +70,23 @@ address {
 }
 
 #contactMain {
-  height: 85vh;
+  height: 90vh;
   background: url(../Images/eerieForest1.jpg);\
   background-position: top right;
   background-size: 1600px 1300px;
   background-repeat: no-repeat;
+
 }
 
 form.contactForm {
-  padding-left: 25px;
+  padding-left: 225px;
+  padding-top: 60px;
 }
 
 legend {
   border: 0;
+  padding-left: 15px;
+  color: #91beeb;
 }
 
 td {
@@ -105,11 +115,13 @@ label {
 input {
   color: #a1a1a1;
   font-size: 16px;
+  margin-right: 12px;
 }
 
 input.bottomButtons {
-  margin-left: 20px;
+  margin-left: 120px;
   padding-left: 15px;
+  margin-top: 20px;
   padding-right: 15px;
   background-color: #a1a1a1;
   color: white;
@@ -118,4 +130,31 @@ input.bottomButtons {
 
 input.bottomButtons:hover {
   color: #91beeb;
+}
+
+.shoppingTitle {
+  margin-right: 0;
+  width: 400px;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-left: 10px;
+  color: #91beeb;
+  font-family: 'Lemonada', cursive;
+}
+
+.productImages {
+  margin-left: 200px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.productDescriptions {
+  margin-left: 200px;
+  width: 275px;
+}
+
+.pageButton {
+  color: #91beeb;
+  background-color: #a1a1a1;
 }
