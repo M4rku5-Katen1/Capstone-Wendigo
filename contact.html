@@ -14,10 +14,12 @@
 
     <!-- Bootstrap core CSS -->
     <link href="CSS/bootstrapmin.css" rel="stylesheet">
-
-
     <!-- Custom styles for this template -->
     <link href="CSS/starter-template.css" rel="stylesheet">
+    <!-- Personal CSS Styles -->
+    <link href="CSS/styles.css" rel="stylesheet">
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
 
 
   </head>
@@ -25,22 +27,23 @@
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
-          <img src="Images/Logo1.jpg" alt="Logo" height="80px" width="68px">
+          <img src="Images/Logo2.png" alt="Logo" height="80px" width="68px">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Capstone Wendigo</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
+            <li><h1 class="slogan">You don't know what's outside,<br> order from inside</h1></li>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="active"><a href="#contact">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Sign Up</a></li>
+            <li><a href="shopping.html">Shopping</a></li>
           </ul>
         </div>
       </div>
@@ -49,93 +52,109 @@
     <div class="container-fluid">
 
         <div class="row">
-          <div class="col-md-3"></div>
-<!--the contact information box-->
-          <div class="col-md-9">
-            <div id="main">
+          <div class="col-md-3">
+              <aside class="aside">
+              <h1 class="CompanyName">Capstone<br>Wendigo</h1>
               <br>
-               <h1>Contact Information</h1>
-             </br>
-               <form class="" action="index.html" method="post">
+              <section class="asideSection">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </section>
+            </aside>
+            </div>
+
+
+          <div class="col-md-9">
+            <div id="contactMain">
+               <h1 class="title">Contact Information</h1>
+
+               <form class="contactForm" action="index.html" method="post"><br><br>
                  <fieldset id="contInfo">
-                   <!--the H1-->
-    <legend>Contact Infromation</legend>
-    <table border="1" cellpadding="5" cellspacing="0">
 
-<th>
-<tr>
-  <td><label for="contname">First Name</label><!--First name-->
-  <input id="contname" name="contname"
-  placeholder="first name" required="required"/>
-</td>
-<td><label for="contname">Last Name</label><!--Last Name-->
-<input id="contname" name="contname" placeholder="last name" required="required"/>
-</td>
-</tr>
-</th>
-<th>
-<tr>
-  <td><label for="address">Street Address</label><!--Address-->
-  <input id="address" name="address"/></td>
-  <!--image-->
-  <td rowspan="12"><img src="Images/Logo1.jpg" alt="" width="234px" height="234px"></td>
-</tr>
-</th>
-<th>
-<tr>
-  <td>
-    <label for="city">City</label><!--city-->
-    <input id="city" name="city"/>
-  </td>
-  </tr>
-  </th>
-    <th>
-    <tr>
-      <td>
-    <label for="state">State (abbr.)</label><!--state-->
-    <input id="state" name="state"/>
-  </td>
-  </tr>
-  </th>
-    <th>
-    <tr>
-      <td>
-    <label for="zip">Postal Code</label><!--zip code-->
-    <input id="zip" name="zip" placeholder="nnnnn
-    (-nnnn)"/>
-  </td>
-  </tr>
-  </th>
-    <th>
-    <tr>
-      <td>
-    <label for="phone">Phone Number</label><!--phone number-->
-    <input id="phone" name="phone" placeholder="(nnn)
-    nnn-nnnn" type="tel"/>
-  </td>
-  </tr>
-  </th>
-    <th>
-    <tr>
-      <td>
-    <label for="email">E-mail</label><!--Email-->
-    <input id="email" name="email" type="email" required="required"/>
-</td>
-</tr>
-</th>
+                  <legend>Sign Up</legend>
+                  <table border="1" cellpadding="5" cellspacing="0">
 
-<!--the submit and cancel buttons-->
-   <p>
-    <input type="submit" value="Submit My Survey" />
-    <input type="reset" value="cancel" />
-   </p>
-   <!--end form-->
-               </form>
-             </table>
-<!--end div-->
+                    <th>
+                      <tr>
+                        <td><label for="contname">First Name</label><!--First Name Label-->
+                            <input id="contname" name="contname" placeholder="First Name" required="required"/><!--First Name Input-->
+                        </td>
+                        <td><label for="contname">Last Name</label><!--Last Name Label-->
+                            <input id="contname" name="contname" placeholder="Last Name" required="required"/><!--Last Name Input-->
+                        </td>
+                      </tr>
+                    </th>
+
+                    <th>
+                      <tr>
+                        <td><label for="address">Street Address</label><!--Address Label-->
+                            <input id="address" name="address"/></td><!--Address Input-->
+                            <!-- Image -->
+                        <td rowspan="12" class="logoCell"><img src="Images/Logo2Inverted.png" class="invertedLogo" width="374px" height="234px"></td>
+                      </tr>
+                    </th>
+
+                    <th>
+                      <tr>
+                        <td><label for="city">City</label><!--City Label-->
+                            <input id="city" name="city"/><!--City Input-->
+                        </td>
+                      </tr>
+                    </th>
+
+                    <th>
+                      <tr>
+                        <td><label for="state">State (abbr.)</label><!--State Label-->
+                            <input id="state" name="state"/><!--State Input -->
+                        </td>
+                      </tr>
+                    </th>
+
+                    <th>
+                      <tr>
+                        <td><label for="zip">Postal Code</label><!--Zip Code Label-->
+                            <input id="zip" name="zip" placeholder="nnnnn (-nnnn)"/><!--Zip Code Input-->
+                        </td>
+                      </tr>
+                    </th>
+
+                    <th>
+                      <tr>
+                        <td><label for="phone">Phone Number</label><!--Phone Number Label-->
+                            <input id="phone" name="phone" placeholder="(nnn) nnn-nnnn" type="tel"/><!--Phone Number Input-->
+                        </td>
+                      </tr>
+                    </th>
+
+                    <th>
+                      <tr>
+                        <td><label for="email">E-mail</label><!--Email Label-->
+                            <input id="email" name="email" type="email" required="required"/><!--Email Input-->
+                        </td>
+                      </tr>
+                    </th>
+                  </table>
+                  <br>
+
+                  <p>
+                    <input type="submit" value="Submit My Survey" class="bottomButtons"/> <!-- Submit Button -->
+                    <input type="reset" value="Cancel" class="bottomButtons"/> <!-- Cancel Button -->
+                  </p>
+                </fieldset>
+              </form><!--End Form-->
             </div>
           </div>
-    </div>
+        </div>
+      </div>
+
+
+    <div class="navbar navbar-fixed-bottom" id="footer">
+      <address>
+          Capstone Wendigo &#9824;
+          212 Williams Lane &#9824;
+          Phoenix, AZ 85383 &#9824;
+          (623) 429 - 1937
+      </address>
+  </div>
 
 
     <!-- Bootstrap core JavaScript
