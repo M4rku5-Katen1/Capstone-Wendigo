@@ -154,7 +154,23 @@ input.bottomButtons:hover {
   width: 275px;
 }
 
+.productPrices {
+    margin-left: 200px;
+}
+
 .pageButton {
+  color: #91beeb;
+  background-color: #a1a1a1;
+}
+
+.addToCart {
+  margin-left: 200px;
+  width: 140px;
+}
+
+.checkOut {
+  margin-left: 660px;
+  margin-top: 60px;
   color: #91beeb;
   background-color: #a1a1a1;
 }
