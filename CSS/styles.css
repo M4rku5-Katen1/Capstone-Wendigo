@@ -101,7 +101,7 @@ td {
 }
 
 td.logoCell {
-  background: url(../Images/whiteForest1.jpg);\
+  background: url(../Images/whiteForest1.jpg);
   background-position: top right;
   background-size: 400px 250px;
   background-repeat: no-repeat;
@@ -133,6 +133,7 @@ input.bottomButtons {
   background-color: #a1a1a1;
   color: white;
   font-family: 'Lemonada', cursive;
+  border-radius: 7px;
 }
 
 input.bottomButtons:hover {
@@ -163,43 +164,57 @@ input.bottomButtons:hover {
 }
 
 .productDescriptions {
-  margin-left: 25px;
+  margin-left: 35px;
   width: 250px;
+  text-align: center;
 }
 
 .productPrices {
-    margin-left: 25px;
+    text-align: center;
 }
 
 .rightPageButton {
   margin-top: 70px;
   margin-right: 42px;
   float: right;
-  color: #91beeb;
+  color: white;
   background-color: #a1a1a1;
   border-radius: 7px;
+}
+
+.rightPageButton:hover {
+  color: #91beeb;
 }
 
 .pageButton {
   margin-top: 70px;
   margin-right: 28px;
   float: right;
-  color: #91beeb;
+  color: white;
   background-color: #a1a1a1;
   border-radius: 7px;
 }
 
+.pageButton:hover {
+  color: #91beeb;
+}
+
 .addToCart {
-  margin-left: 25px;
+  margin-left: 95px;
   width: 140px;
+  border-radius: 7px;
 }
 
 .checkOut {
   margin-left: 470px;
   margin-top: 60px;
-  color: #91beeb;
+  color: white;
   background-color: #a1a1a1;
   border-radius: 7px;
+}
+
+.checkOut:hover {
+  color: #91beeb;
 }
 
 .infoHeaders {
@@ -207,9 +222,9 @@ input.bottomButtons:hover {
   float: left;
   text-align: center;
   vertical-align: middle;
-  width: 170px;
+  width: 180px;
   height: 180px;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 20px;
   padding-right: 15px;
   font-size: 26px;
@@ -240,6 +255,17 @@ h4.nameHeaders {
   color: #91beeb;
 }
 
+h5 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: 'Lemonada', cursive;
+  color: #91beeb;
+  font-style: italic;
+}
+
 p.peopleParagraphs {
   margin-left: 60px;
   margin-right: 20px;
@@ -250,4 +276,33 @@ p.peopleParagraphs {
   background-color: #a1a1a1;
   border-right: 2px solid;
   border-color: #a1a1a1;
+}
+
+#imagesRow {
+  background: url(../Images/blueBackground.svg);
+  background-position: top left;
+  background-size: 1200px 310px;
+  background-repeat: no-repeat;
+}
+
+hr {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: #a1a1a1;
+}
+
+.cartHeader {
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p.cartStatus {
+  text-align: center;
+  font-size: 16px;
+}
+
+p.cartRecommendation {
+  text-align: center;
+  font-size: 14px;
 }
