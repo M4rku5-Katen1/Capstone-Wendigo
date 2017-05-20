@@ -86,7 +86,7 @@ h1.title {
 }
 
 form.contactForm {
-  padding-left: 225px;
+  padding-left: 150px;
   padding-top: 60px;
 }
 
@@ -273,7 +273,7 @@ p.peopleParagraphs {
 }
 
 #asideAbout {
-  height: 170vh;
+  height: 190vh;
   background-color: #a1a1a1;
   border-right: 2px solid;
   border-color: #a1a1a1;
@@ -282,7 +282,7 @@ p.peopleParagraphs {
 #imagesRow {
   background: url(../Images/blueBackground.svg);
   background-position: top left;
-  background-size: 1200px 310px;
+  background-size: 1070px 310px;
   background-repeat: no-repeat;
 }
 
@@ -306,4 +306,52 @@ p.cartStatus {
 p.cartRecommendation {
   text-align: center;
   font-size: 14px;
+}
+
+#item1 {
+  display: none;
+}
+
+#item2 {
+  display: none;
+}
+
+#item3 {
+  display: none;
+}
+
+#item4 {
+  display: none;
+}
+
+#item5 {
+  display: none;
+}
+
+#item6 {
+  display: none;
+}
+
+#item7 {
+  display: none;
+}
+
+#item8 {
+  display: none;
+}
+
+#item9 {
+  display: none;
+}
+
+#item10 {
+  display: none;
+}
+
+#item11 {
+  display: none;
+}
+
+#item12 {
+  display: none;
 }
