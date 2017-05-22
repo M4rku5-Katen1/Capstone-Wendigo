@@ -7,7 +7,6 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
     <title>Starter Template for Bootstrap</title>
 
@@ -29,6 +28,7 @@
 
   <body>
     <!-- bootstrapmin.css 4757 = color of navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -54,7 +54,7 @@
     </nav>
 
     <div class="container-fluid">
-
+      <!-- Aside -->
       <div class="row">
         <div class="col-md-3" id="asideShopping">
           <h1 class="CompanyName">Capstone<br>Wendigo</h1>
@@ -68,8 +68,9 @@
             Studies show that more and more people prefer to order online, and since the number of people who serf the web is constantly increasing , our market grows correspondingly.
           </section>
         </div>
-
+        <!-- Main Page -->
         <div class="col-md-9" id="shoppingMain">
+          <!-- Row of title and shopping page links -->
           <div class="row">
             <h1 class="shoppingTitle"> Shopping </h1>
             <button type="button" name="Shirts" class="rightPageButton" onclick="location.href = 'file:///Users/markus.katen478/www/AtomProjects/Capstone-Wendigo/shirts.html'">Shirts</button>
@@ -77,7 +78,7 @@
             <button type="button" name="Hats" class="pageButton" onclick="location.href = 'file:///Users/markus.katen478/www/AtomProjects/Capstone-Wendigo/hats.html'">Hats</button>
           </div>
           <div class="row">
-
+            <!-- First Column of merchandise including images, short descriptors, prices, and add to cart buttons -->
             <div class="col-md-4">
               <img src="Images/Hats/blackHat.png" class="productImages" width="275px" height="275px">
               <p class="productDescriptions">Black Snapback<p class="productPrices">$18.99</p><button type="button" name="addToCart" class="addToCart">Add To Cart</button></p>
@@ -86,7 +87,7 @@
               <img src="Images/Hats/whiteCap.png" class="productImages" width="275px" height="275px">
               <p class="productDescriptions">White Baseball Cap<p class="productPrices">$19.99</p><button type="button" name="addToCart" class="addToCart">Add To Cart</button></p>
             </div>
-
+            <!-- Second Column of merchandise including images, short descriptors, prices, and add to cart buttons -->
             <div class="col-md-4">
               <img src="Images/Hats/greyHat.png" class="productImages" width="275px" height="275px">
               <p class="productDescriptions">Grey Snapback<p class="productPrices">$18.99</p><button type="button" name="addToCart" class="addToCart">Add To Cart</button></p>
@@ -95,7 +96,7 @@
               <img src="Images/Hats/blackCap.png" class="productImages" width="275px" height="275px">
               <p class="productDescriptions">Black Baseball Cap<p class="productPrices">$19.99</p><button type="button" name="addToCart" class="addToCart">Add To Cart</button></p>
             </div>
-
+            <!-- Third Column of merchandise including images, short descriptors, prices, and add to cart buttons -->
             <div class="col-md-4">
               <img src="Images/Hats/whiteHat.png" class="productImages" width="275px" height="275px">
               <p class="productDescriptions">White Snapback<p class="productPrices">$18.99</p><button type="button" name="addToCart" class="addToCart">Add To Cart</button></p>
@@ -108,11 +109,11 @@
         </div>
 
         </div>
-
+        <!-- Check out Button -->
         <button type="button" name="checkOut" class="checkOut" onclick="location.href= 'file:///Users/markus.katen478/www/AtomProjects/Capstone-Wendigo/checkout.html'">Check Out</button>
       </div>
     </div>
-
+    <!-- Footer -->
     <footer id="footer">
           Capstone Wendigo &#9824;
           212 Williams Lane &#9824;
@@ -126,9 +127,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <!-- Bootstrap JS -->
     <script src="JS/bootstrap.js"></script>
     <!-- Lighbox Script -->

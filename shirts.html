@@ -7,7 +7,6 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
     <title>Starter Template for Bootstrap</title>
 
@@ -29,9 +28,11 @@
 
   <body>
     <!-- bootstrapmin.css 4757 = color of navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
+          <!-- Logo -->
           <img src="Images/Logo2.png" alt="Logo" height="80px" width="68px">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -41,6 +42,7 @@
           </button>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
+          <!-- List of slogan and links -->
           <ul class="nav navbar-nav">
             <li><h1 class="slogan">You don't know what's outside,<br> order from inside</h1></li>
             <li><a href="index.html">Home</a></li>
@@ -54,7 +56,7 @@
     </nav>
 
     <div class="container-fluid">
-
+      <!-- Aside -->
       <div class="row">
         <div class="col-md-3" id="asideShoppingShirts">
           <h1 class="CompanyName">Capstone<br>Wendigo</h1>
@@ -68,15 +70,16 @@
             Studies show that more and more people prefer to order online, and since the number of people who serf the web is constantly increasing , our market grows correspondingly.
           </section>
         </div>
-
+        <!-- Main Page -->
         <div class="col-md-9" id="shoppingMain">
+          <!-- Row of title and shopping page links -->
           <div class="row">
           <h1 class="shoppingTitle"> Shopping </h1>
             <button type="button" name="Shirts" class="rightPageButton" onclick="location.href = 'file:///Users/markus.katen478/www/AtomProjects/Capstone-Wendigo/shirts.html'">Shirts</button>
             <button type="button" name="Hoodies" class="pageButton" onclick="location.href = 'file:///Users/markus.katen478/www/AtomProjects/Capstone-Wendigo/hoodies.html'">Hoodies</button>
             <button type="button" name="Hats" class="pageButton" onclick="location.href = 'file:///Users/markus.katen478/www/AtomProjects/Capstone-Wendigo/hats.html'">Hats</button>
           </div>
-
+          <!-- First Column of merchandise including images, short descriptors, prices, and add to cart buttons -->
           <div class="row">
 
             <div class="col-md-4" id="shoppingColumns">
@@ -89,7 +92,7 @@
               <img src="Images/Shirts/femaleWhiteShirt.png" class="productImages" width="275px" height="275px">
               <p class="productDescriptions">Female White Shirt<p class="productPrices">$29.99</p><button type="button" name="addToCart" class="addToCart" onclick="addToCart('item4')">Add To Cart</button></p>
             </div>
-
+            <!-- Second Column of merchandise including images, short descriptors, prices, and add to cart buttons -->
             <div class="col-md-4" id="shoppingColumns">
               <img src="Images/Shirts/maleWhiteShirt.png" class="productImages" width="275px" height="275px">
               <p class="productDescriptions">Male White Shirt<p class="productPrices">$29.99</p><button type="button" name="addToCart" class="addToCart" onclick="addToCart('item5')">Add To Cart</button></p>
@@ -100,7 +103,7 @@
               <img src="Images/Shirts/femaleGreyShirt.png" class="productImages" width="275px" height="275px">
               <p class="productDescriptions">Female Grey Shirt<p class="productPrices">$29.99</p><button type="button" name="addToCart" class="addToCart" onclick="addToCart('item8')">Add To Cart</button></p>
             </div>
-
+            <!--Third Column of merchandise including images, short descriptors, prices, and add to cart buttons -->
             <div class="col-md-4" id="shoppingColumns">
               <img src="Images/Shirts/maleGreyShirt.png" class="productImages" width="275px" height="275px">
               <p class="productDescriptions">Male Grey Shirt<p class="productPrices">$29.99</p><button type="button" name="addToCart" class="addToCart" onclick="addToCart('item9')">Add To Cart</button></p>
@@ -115,11 +118,11 @@
           </div>
 
         </div>
-
+        <!-- Check Out button -->
         <button type="button" name="checkOut" class="checkOut" onclick="location.href= 'file:///Users/markus.katen478/www/AtomProjects/Capstone-Wendigo/checkout.html'">Check Out</button>
       </div>
     </div>
-
+    <!-- Footer -->
     <footer id="footer">
           Capstone Wendigo &#9824;
           212 Williams Lane &#9824;
@@ -133,9 +136,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <!-- Bootstrap JS -->
     <script src="JS/bootstrap.js"></script>
     <!-- Lighbox Script -->
